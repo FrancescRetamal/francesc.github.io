@@ -1,0 +1,288 @@
+html, body{
+    font-family: 'GeosansLight';
+
+    background: url('../../public/assets/img/logo_definitivo-copia.svg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: #007cc413; */
+    }
+
+.titulo{
+    /* position: absolute; */
+    color: white;
+    /* font-family: 'Sanseriffic'; */
+}
+
+.colorNombre{
+    color: #007cc4;
+    font-weight: bold;
+}
+
+.btnMore{
+    /* position: absolute; */
+    /* margin-top: 6%; */
+    color: white!important;
+    border: 2px solid white;
+    border-radius: 0%;
+    text-transform: uppercase;
+    font-size: large;
+    /* font-family: 'GeosansLight'; */
+}
+
+#contenedorTitulo{
+    position: absolute;
+    background-color: transparent;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    margin: auto;
+}
+
+#barraSuperior .nav-link{
+    /* font-weight: bold; */
+    font-size: x-large;
+}
+#barraSuperior .enlaces li a{
+    color: rgba(255,255,255,.5);
+}
+
+#barraSuperior .enlaces li a:hover{
+    color: #007cc4!important;
+    transform: scale(1.1);
+}
+
+#barraSuperior .enlaces li > a:focus{
+    color: #007cc4!important;
+}
+
+#lang_ca:hover, #lang_es:hover,#lang_en:hover{
+    background-color: #007cc4;
+}
+#lang_ca, #lang_es, #lang_en{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#barraSuperior{
+    border-bottom: 3px solid #007cc4;
+}
+
+/* pentagono */
+#pentagono {
+    position: relative;
+    background: transparent;
+    width: 150px;
+    border-width: 120px 58px 0;
+    border-style: solid;
+    border-color: #007cc4 transparent;
+    margin-top: 150px;
+}
+#pentagono::before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -230px;
+    left: -58px;
+    border-width: 0 133px 110px;
+    border-style: solid;
+    border-color: transparent transparent #007cc4;
+}
+
+
+/*Seccion de sobre mi*/
+.tituloSeccion{
+    padding-top: 10%;
+}
+
+.descripcion{
+    font-size: x-large;
+    color: rgba(0, 0, 0, 0.747);
+}
+.separation-bar{
+    width: 10%;
+    margin: auto;
+    height: 5pt;
+    background-color: #444649;
+}
+
+.myProgress {
+    width: 100%;
+    background-color: rgb(190, 190, 190);
+  }
+
+.myBar {
+    /* width: 10%; */
+    height: 30px;
+    background-color: #007cc4;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+  }
+
+  #cardQuiSoc{
+    right: 700px;
+  }
+
+  #cardSkills{
+      left:700px;
+  }
+
+  /*Seccion proyectos*/
+
+#barraProjectes{
+    border-bottom: 3px solid #007cc4;
+    font-size: x-large;
+    color: black;
+    font-weight: bold;
+    width: fit-content;
+}
+
+#barraProjectes ul > li{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#barraProjectes ul > li:hover{
+    color: #005281!important;
+    /* transform: scale(1.1); */
+    background-color: rgba(0, 225, 255, 0.295);
+    cursor: pointer;
+}
+
+#barraProjectes ul > li:focus{
+    color: #005281!important;
+}
+
+.clicado{
+    background-color: rgba(0, 225, 255, 0.603);
+}
+
+#gridProyectos{
+    min-width: 100%;
+}
+
+.text-card div{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/*grid de proyectos*/
+figure {
+    /* float: left; */
+    height: 14rem;
+    margin: 1.5em;
+    width: 18rem;
+    -webkit-transform: perspective(500);
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: .5s;
+}
+figure:hover {
+    -webkit-transform: perspective(500) rotateX(90deg) translateY(-3em) translateZ(3em);
+}
+figure img {
+    box-shadow: 0 20px 15px -10px rgba(0, 0, 0, 0.37);
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    -webkit-transition: .5s;
+}
+figcaption {
+    background-color: #007cc4;
+    color: #fff;
+    padding: 1.5em;
+    -webkit-transform: rotateX(-90deg);
+    -webkit-transform-origin: 100% 0;
+    -webkit-transition: .5s;
+}
+figcaption a{
+    font-size: x-large;
+    border: 2px solid white!important;
+    color: white!important;
+}
+figcaption a:hover{
+    background-color: #00578a;
+}
+figure:hover figcaption {
+    box-shadow: 0 20px 15px -10px hsla(0,0%,0%,.25);
+}
+
+/* modal */
+
+.modal-content{
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+}
+
+.modal-header{
+    align-items: center;
+}
+
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+    height: 500px;
+    overflow-y: auto;
+}
+
+.skillsTitle{
+    border-bottom: 1px solid white;
+    background-color: #007cc462;
+}
+
+.skills p{
+    margin: auto;
+    padding: 2%;
+    font-size: large;
+}
+
+.skills p:hover{
+    /* transform: scale(1.2); */
+    background-color: rgba(255, 255, 255, 0.192);
+}
+
+.arrow {
+    text-align: center;
+  }
+  .bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+  }
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

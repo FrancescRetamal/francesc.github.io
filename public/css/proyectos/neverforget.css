@@ -1,0 +1,39 @@
+html, body{
+    font-family: 'GeosansLight';
+}
+
+.barReturnBack{
+    width: 100%;
+    height: 60px;
+    border-bottom: 3px solid #007cc4;
+    display: flex;
+    align-items: center;
+}
+
+.barReturnBack a{
+    background-color: #ffffff23;
+}
+.barReturnBack a:hover{
+    background-color: #ffffff81;
+}
+
+.separation-bar{
+    width: 10%;
+    margin: auto;
+    height: 5pt;
+    background-color: #444649;
+}
+
+.descripcionProyecto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: justify;
+}
+
+#carouselExampleInterval img{
+    height: 450px;
+}
+
+ol > li {
+    background-color: rgb(53, 52, 52)!important;
+}

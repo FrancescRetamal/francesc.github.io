@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'GeosansLight';
+    src: url('../../public/assets/fonts/GeosansLight.woff') format('woff');
+    /* src: url('../public/assets/fonts/Sanseriffic.woff') format('woff'); */
+    /* src: local('/public/assets/fonts/Sanseriffic.woff') format('woff'); */
+}
+
+/* @font-face {
+    font-family: 'Sanseriffic';
+    src: url('../../public/assets/fonts/Sanseriffic.woff') format('woff');
+} */
+
+
+html, body{
+    font-family: 'GeosansLight';
+}
+
+/* Tamaño del scroll */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Estilos barra (thumb) de scroll */
+::-webkit-scrollbar-thumb {
+    background: #007cc48a;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:active {
+    background: #007cc4be;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos track de scroll */
+::-webkit-scrollbar-track {
+    background: #ffffff;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-track:hover,
+::-webkit-scrollbar-track:active {
+    background: #d4d4d4;
+}
+
+.fondoMuyClaro{
+    background-color: #007cc413;
+}
+
+footer{
+    border-top: 3px solid #007cc4;
+    background-color: #343434;
+}
+
+#infoContacto{
+    font-size: x-large;
+    font-style: italic;
+    background-color: #ffffff11;
+}
+#listaContacto a i:hover{
+    color: #007cc4!important;
+}
+
+#topLink:hover{
+    background-color: #ffffff42!important;
+}
